@@ -1,6 +1,7 @@
 import "./Coupon.css";
 import { Link } from "react-router-dom";
 import Couponbg from "../assets/coupon.png";
+import Navbar from "../components/Navbar";
 
 function Coupon() {
   return (
@@ -31,6 +32,7 @@ function Coupon() {
             <h6 className="expiry">Exp 30/12/2025</h6>
           </div>
         </div>
+        <Navbar />
       </div>
     </div>
   );

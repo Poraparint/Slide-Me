@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./qrcodescreen.css";
 import QR from '../assets/qr-user.jpg'
+import Navbar from "../components/Navbar";
 
 function QrCodeScreen() {
   const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 นาทีในหน่วยวินาที
@@ -52,6 +53,7 @@ function QrCodeScreen() {
             <div className="qr-button">ตรวจสอบชำระเงิน</div>
           </Link>
         </div>
+        <Navbar />
       </div>
     </div>
   );

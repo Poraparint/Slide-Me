@@ -39,15 +39,34 @@
 }
 
 
-.notification-item .icon {
-    width: 40px;
-    height: 40px;
+.noti-icon {
+    width: 60px;
+    height: 60px;
     background-color: #f0f0f0;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 16px;
+    margin-right: 10px;
+    font-size: 40px;
+    position: relative;
+}
+
+.noti-circle{
+    position: absolute;
+    left: 40px;
+    bottom: 25px;
+    font-size: 25px;
+}
+
+#checked{
+    color: #0DC964;
+}
+#clock{
+    color: #0DC964;
+}
+#cross{
+    color: #F84C4C;
 }
 
 .notification-item .content h3 {

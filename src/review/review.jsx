@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./review.css";
 import { Link } from "react-router-dom";
 import Profile from '../assets/profile.png'
+import Navbar from "../components/Navbar";
 
 function Review() {
   const [rating, setRating] = useState(0); // เก็บค่าจำนวนดาวที่เลือก
@@ -58,6 +59,7 @@ function Review() {
             <div className="review-btn">ส่งรีวิว</div>
           </Link>
         </div>
+        <Navbar />
       </div>
     </div>
   );
