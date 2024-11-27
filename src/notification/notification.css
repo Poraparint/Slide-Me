@@ -1,0 +1,86 @@
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0DC964;
+    padding: 16px;
+   border-radius: 10px;
+    color: white;
+}
+
+.header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.back-button,
+.close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.notifications {
+    padding: 16px;
+}
+
+.notification-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+
+.notification-item .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.notification-item .content h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #F84C4C;
+}
+
+.notification-item .content p {
+    margin: 4px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.notification-item .content .time {
+    font-size: 12px;
+    color: #999;
+}
+
+
+.notification-item.success .icon {
+    background-color: #0DC964;
+}
+
+.notification-item.in-progress .icon {
+    background-color: #9adbff;
+}
+
+.notification-item.error .icon {
+    background-color: #ff9c9c;
+}
+
+.notification-item.promo .icon {
+    background-color: #ffe58f;
+}
+

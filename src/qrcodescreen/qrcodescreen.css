@@ -1,0 +1,68 @@
+.qr-container {
+        display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 100%;
+
+}
+
+.qr-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.qr-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  
+}
+
+.qr-content {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.qr-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.timer {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.expired {
+  color: red;
+  font-weight: bold;
+}
+
+.qr-placeholder {
+  font-size: 1rem;
+  color: #777;
+}
+
+.qr-button {
+  background-color: #0DC964;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+

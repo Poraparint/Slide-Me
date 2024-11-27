@@ -1,0 +1,133 @@
+/* General layout for the container */
+
+.status-container {
+    background-color: #0DC964;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* White Box Container */
+
+.status-box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.contact-stars{
+    color: #FDDA0D;
+}
+
+
+/* Centered Checkmark Circle */
+
+.status-check-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #0DC964;
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.white-box{
+    width: 100%;
+    border: 1px solid#ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.white-btn{
+    background-color: white;
+    border-radius: 10px;
+    display: flex ;
+    justify-content: center;
+    padding: 9px 0px 9px 0px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+/* Section Items with Bottom Border */
+
+.section-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    font-size: 18px;
+    
+}
+
+
+/* Avatar */
+
+.recipt-profile{
+    position: relative;
+    width: 100%;
+}
+
+.recipt-profile img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.recipt-discount{
+    color: #F84C4C;
+}
+
+
+
+/* Driver Stats */
+
+.driver-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.driver-stats i{
+    color: #0DC964;
+}
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-profile{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-profile h3{
+    margin-top: 40px;
+}
+
+
+/* Contact Buttons */
+
+.contact-btn {
+    background-color: #0DC964;
+    border: none;
+    font-size: 25px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    color: white;
+}

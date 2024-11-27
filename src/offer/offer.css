@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #0DC964;
+    color: white;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+}
+
+
+/* Main Page Layout */
+
+.offer-page {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    padding: 16px;
+    background-color: #0DC964;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.map {
+    height: 200px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 16px;
+    background-color: #ffffff;
+}
+
+.tabs {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.tab {
+    font-size: 16px;
+    color: #888;
+    cursor: pointer;
+}
+
+.tab.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.offer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.offer-item {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-icon {
+    font-size: 24px;
+}
+
+.offer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.offer-date {
+    font-size: 14px;
+    color: #888;
+}
+
+.price-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.offer-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.select-button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #007bff;
+    /* Blue color */
+    color: #fff;
+    border: 2px solid #007bff;
+    /* Blue border */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.select-button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    border-color: #0056b3;
+    /* Darker blue border on hover */
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-button {
+    font-size: 16px;
+    color: #888;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

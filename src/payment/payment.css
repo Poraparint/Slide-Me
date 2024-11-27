@@ -1,0 +1,119 @@
+
+
+.payment-form-container {
+    width: 100%;
+    
+    padding: 0px 20px;
+    height: 100%;
+}
+
+.choose-card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E8E7E7;
+    padding: 10px ;
+    border-radius: 10px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+.card-option {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.card-option:hover {
+  color: #0DC964;
+}
+
+.card-option.active {
+  font-weight: bold;
+}
+
+.card-option hr {
+  border: none;
+  border-top: 2px solid #0DC964;
+  width: 50%;
+  margin: 2px auto 0 auto;
+}
+
+.header {
+    background-color: #4caf50;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input-box{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.input-box input{
+    background-color: #E8E7E7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.input-box label{
+   font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.input-box-middle{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-text {
+    font-size: 12px;
+    color: black;
+    margin: 20px 0px;
+}
+
+.info-text a {
+    color: #004AAD;
+    text-decoration: none;
+}
+
+.save-btn {
+    width: 100%;
+    background-color: #0DC964;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* Adds space above the save button */
+}
+

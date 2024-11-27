@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #0DC964;
+    color: white;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.map {
+    height: 400px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 24px;
+}
+
+.details-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+.tab-header {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 2px solid #0DC964;
+    color: black;
+}
+
+.location-details {
+    margin-bottom: 20px;
+}
+
+.current-location,
+.destination {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.truck-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.truck-description {
+    font-size: 18px;
+}
+
+.truck-icon {
+    text-align: center;
+}
+
+.truck-icon img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.call-button {
+    width: 100%;
+    background-color: #0DC964;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}

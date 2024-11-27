@@ -1,0 +1,106 @@
+.map-status {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #0DC964;
+    color: white;
+    padding: 10px 15px;
+}
+
+.back-btn,
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 18px;
+}
+
+.map-container {
+    position: relative;
+}
+
+.map-image {
+    width: 100%;
+}
+
+.info-container {
+    padding: 15px;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.ride-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ride-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.ride-type {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ride-details {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.ride-details i {
+    margin-right: 5px;
+}
+
+.vehicle-icon {
+    font-size: 36px;
+    color: #333;
+    margin-left: 15px;
+}
+
+.driver-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.driver-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.driver-rating {
+    font-size: 14px;
+    color: #888;
+}
+
+.contact-buttons button {
+    margin: 0 5px;
+}
+
+.return-btn {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}

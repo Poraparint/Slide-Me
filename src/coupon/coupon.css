@@ -1,0 +1,95 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #0DC964;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.back-button,
+.close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.coupon {
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+.coupon-text{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 90%;
+}
+
+.coupon-text-customer{
+    font-size: 30px;
+    color: white;
+}
+
+.coupon > img{
+    width: 90%;
+    height: 100%;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+
+.discount {
+    font-size: 4em;
+    color: white;
+    margin: 10px 0;
+}
+
+.redeem-button {
+    background-color: white;
+    color: #333;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    padding: 15px 30px;
+}
+.details h3{
+    color: #0DC964;
+    font-size: 25px;
+    font-weight: 400;
+}
+.details p{
+    font-size: 15px;
+    color: #A09D9D;
+}
+.details h6{
+   font-size: 15px;
+   color: #377B48;
+}
+
+
+/* Setting different font sizes for each line in the details */
+
